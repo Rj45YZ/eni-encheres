@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 20px 30px;
+}
+
+.logo-site {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-site img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.logo-site span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header nav a {
+    color: #222;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+
+.date-du-jour {
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.date-du-jour span {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .header nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .date-du-jour {
+        text-align: left;
+        margin-top: 5px;
+    }
+
+    .logo-site img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+.connexion {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.form-connexion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 350px;
+}
+
+.ligne-connexion {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ligne-connexion label {
+    width: 100px;
+}
+
+.ligne-connexion input {
+    flex: 1;
+    padding: 7px;
+}
+
+.actions-connexion {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.actions-connexion button {
+    padding: 15px;
+}
+
+.creer-compte {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    padding: 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.erreur {
+    color: red;
+}
+
+
+/* =========================
+   PAGE INSCRIPTION
+   ========================= */
+
+.inscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.form-inscription {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    width: 400px;
+}
+
+.form-inscription input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-inscription fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.boutons-inscription {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    margin-top: 20px;
+}
+
+.boutons-inscription button {
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.erreur {
+    color: red;
+}

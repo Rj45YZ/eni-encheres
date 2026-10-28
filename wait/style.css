@@ -1,0 +1,86 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.logo-site {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-site img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.logo-site span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header nav {
+    display: flex;
+    gap: 20px;
+}
+.date-du-jour {
+    border: 1px solid black;
+    padding: 10px 15px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+main {
+    padding: 20px 30px;
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.filtres h2 {
+    margin-bottom: 10px;
+}
+
+.zone-filtres {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.champs-filtres {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.champs-filtres input {
+    width: 300px;
+    padding: 10px;
+}
+
+.categorie {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.categorie select {
+    padding: 8px;
+}
+
+.boutons-filtres {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boutons-filtres button {
+    padding: 10px 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <header class="header">
+    <div class="logo-site">
+        <img src="/Photo/Logo eni blanc sur fond bleu.png" alt="Logo ENI">
+        <span>Eni-encheres</span>
+    </div>
+
+    <nav>
+        <a href="/">Accueil</a>
+        <a href="/login">S'inscrire - Se connecter</a>
+    </nav>
+</header>
+<div class="date-du-jour">
+    Date du jour : <span id="date"></span>
+</div>
+<main>
+
+<h1>Liste des enchères</h1>
+
+<section class="filtres">
+
+    <h2>Filtres</h2>
+
+    <div class="zone-filtres">
+
+        <div class="champs-filtres">
+
+            <input
+                type="text"
+                placeholder="Le nom de l'article contient">
+
+             <div class="categorie">
+                <label for="categorie">Catégorie :</label>
+
+                <select id="categorie" name="categorie">
+                    <option value="">Toutes</option>
+                    <option value="ameublement">Ameublement</option>
+                    <option value="informatique">Informatique</option>
+                    <option value="sport-loisirs">Sport et loisirs</option>
+                    <option value="vetements">Vêtements</option>
+                </select>
+            </div>
+
+        </div>
+
+        <div class="boutons-filtres">
+                <button type="button">Rechercher</button>
+                <button type="button">Annuler</button>
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+<script src="script.js"></script>
+
+</body>
+</html>
