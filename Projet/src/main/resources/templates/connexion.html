@@ -39,7 +39,7 @@
                 </a>
             </div>
 
-            <p class="erreur" th:if="${param.error}">
+            <p class="erreur" hidden th:hidden="${param.error == null}">
                 Identifiant ou mot de passe incorrect.
             </p>
 

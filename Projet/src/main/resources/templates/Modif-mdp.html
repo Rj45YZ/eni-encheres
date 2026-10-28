@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modifier mon mot de passe - ENI-Enchères</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <main class="modif-mdp">
+        <h1>Modifier mon mot de passe</h1>
+
+        <form class="form-modif-mdp" action="#" method="post">
+            <div class="champ-modif-mdp champ-mdp-actuel">
+                <label for="motDePasseActuel">Mot de passe actuel (*) :</label>
+                <input type="password" id="motDePasseActuel" name="motDePasseActuel" required autocomplete="current-password">
+            </div>
+
+            <div class="champs-nouveau-mdp">
+                <div class="champ-modif-mdp">
+                    <label for="nouveauMotDePasse">Nouveau mot de passe (*) :</label>
+                    <input type="password" id="nouveauMotDePasse" name="nouveauMotDePasse" required autocomplete="new-password">
+                </div>
+
+                <div class="champ-modif-mdp">
+                    <label for="confirmationMotDePasse">Confirmation (*) :</label>
+                    <input type="password" id="confirmationMotDePasse" name="confirmationMotDePasse" required autocomplete="new-password">
+                </div>
+            </div>
+
+            <div class="actions-modif-mdp">
+                <button type="submit">Modifier</button>
+                <a href="profil.html">Annuler</a>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
